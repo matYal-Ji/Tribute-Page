@@ -1,0 +1,174 @@
+html {
+  font-size:15px;
+}
+  
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: rgb(3, 0, 0);
+  margin: 0;
+  background: linear-gradient(
+    45deg,
+    #409292,
+    #cf7fc5,
+    gray,
+    gray,
+    black
+  );
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+  image{
+    max-width: 50%;
+  }
+  body{
+    font-size: 0.5em;
+  }
+}
+
+@media (min-width: 400px){
+  .container{
+    display: grid;
+    /* background-color: bisque; */
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows: repeat (5,auto );
+    grid-column-gap: 5%; 
+    justify-content: center;
+    /* height: auto; */
+    margin: 10% 10%;
+    align-items: center;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+p{
+  text-align:justify;
+  color: rgb(54, 54, 54);
+}
+.title-description{
+  text-align:center;
+}
+.img{
+  width:100%;
+}
+#image{
+  width:80%;
+}
+#img-caption{
+  text-align:right;
+  margin-right:15%;
+}
+#headline{
+  margin: 10% 20px;
+  font-size: 2em;
+}
+
+
+/*GRID*/
+
+
+
+.para-even{
+  text-align: right;
+  margin-right: 5%;
+  /* background-image: linear-gradient(45deg,rgb(233, 210, 133),white); */
+  /* background-color: gray;
+  border-radius: 2%; */
+}
+.para-odd{
+  text-align: left;
+  margin-left: 5%;
+  /* background-color:gray;
+  border-radius: 2%; */
+}
+.cap-even{
+  text-align: left;
+  font-size: 17px;
+  font-style: italic;
+}
+.cap-odd{
+  text-align-last: right;
+  font-size: 17px;
+  font-style: italic;
+}
+/* .r0c0, .r1c0,  .r2c0, .r3c0, .r4c0, .r5co{
+
+} */
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+#img-div {
+  /* background: white; */
+  padding: 10px;
+  margin: 0;
+}
+
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+#title{
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  color: white;
+  font-style:unset;
+  font-size: 3em;
+}
+.title-description{
+  font-style: unset;
+  color: rgba(223, 144, 226, 0.63);
+}
+
+a {
+  color: #477ca7;
+  text-decoration:none;
+}
+
+a:visited {
+  color: #74638f;
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+footer{
+  background-color: #333;
+  color: azure;
+  margin: 2% 2%;
+}
+
+.itachi{
+  width:8em;
+  border-radius: 50%;
+  /* text-align: right; */
+}
+.profile{
+  display: flex;
+  width: max-content;
+  margin: 5% auto 7% auto;
+  
+  /* align-items: center; */
+}
