@@ -19,25 +19,8 @@ body {
   );
 }
 
-h1 {
-  font-size: 4rem;
-  margin-bottom: 0;
-}
 
-@media (max-width: 460px) {
-  h1 {
-    font-size: 3.5rem;
-    line-height: 1.2;
-  }
-  image{
-    max-width: 50%;
-  }
-  body{
-    font-size: 0.5em;
-  }
-}
-
-@media (min-width: 400px){
+@media (min-width: 420px){
   .container{
     display: grid;
     /* background-color: bisque; */
@@ -49,6 +32,52 @@ h1 {
     margin: 10% 10%;
     align-items: center;
   }
+}
+
+
+
+@media (max-width: 419px){
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+  body{
+    font-size: 0.5em;
+  }
+  #image{
+    width: 100%;
+  }
+  img{
+    max-width: 70%;
+  }
+  #img-caption {
+    font-size: 1.4rem;
+  }
+  .profile{
+    display:grid;
+    grid-template-columns: 80px 220px;
+  }
+  .itachi{
+    
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+  }
+  p{
+    margin-bottom: 18%;
+  }
+  figcaption{
+    /* max-height: 5px; */
+    font-size:xx-small ;
+  }
+  .img{
+    width: fit-content;
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -124,11 +153,6 @@ img {
 }
 
 
-@media (max-width: 460px) {
-  #img-caption {
-    font-size: 1.4rem;
-  }
-}
 #title{
   /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   color: white;
@@ -172,3 +196,10 @@ footer{
   
   /* align-items: center; */
 }
+
+.itachi-rain{
+  width:220px;
+  height: 300px;
+  object-fit: cover;
+}
+
